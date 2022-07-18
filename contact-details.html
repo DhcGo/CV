@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>✳ Contact Details</title>
+  </head>
+  <body>
+    <a href="./index.html" target="_self">Go Home</a>
+
+    <h3>Contact Details</h3>
+    <p>Address</p>
+    <p>1234567</p>
+    <p>abc@gmail.com</p>
+    <hr />
+    <div>
+      <form
+        action="mailto:dave.collins@dcRealm.com"
+        method="post"
+        enctype="text/plain"
+      >
+        <label for="">Name:&nbsp;</label><input type="text" name="name" /><br />
+        <label class="brtop" for="">Email:&nbsp;</label
+        ><input type="email" name="email" /><br />
+        <label class="brtop" for="">Message:</label><br /><textarea
+          class="brtop"
+          name="message"
+          id=""
+          cols="30"
+          rows="3"
+        ></textarea
+        ><br />
+
+        <input class="brtop submit" type="submit" />
+      </form>
+    </div>
+  </body>
+</html>
+<style>
+  .brtop {
+    margin-top: 5px;
+    display: inline-block;
+  }
+  .submit {
+    background-color: #e6e6ff;
+  }
+</style>
